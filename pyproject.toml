@@ -1,0 +1,25 @@
+[project]
+name = "two-count-baseline"
+version = "1.0.0"
+description = "Code of the paper A Two-Count Baseline for Change Detection on Dynamic Networks"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [{name = "Izhar Ali"}]
+dependencies = [
+    "numpy>=1.24,<2",
+    "scipy>=1.10",
+    "networkx>=3.0",
+    "pandas>=2.0",          # raw-file readers in data/downloaders (MIT, PAMAP2, TGB)
+    "matplotlib>=3.7",      # figures
+    "tueplots>=0.2.4",      # figure sizes and fonts
+]
+
+[project.urls]
+Repository = "https://github.com/ali-izhar/two-count-baseline"
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 120

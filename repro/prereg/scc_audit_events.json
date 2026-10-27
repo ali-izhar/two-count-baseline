@@ -1,0 +1,408 @@
+{
+ "rule": "Sensitivity variant of the SCC labels (the primary keeps SCPD Table 5). Each row's day is the earliest externally verified day on which it became public (governance vote: the vote day; price move: the day of the move), from the label audit repro/prereg/LABEL_AUDIT.md (SC) and DEVIATIONS 11, 12, 14. Rows whose true day lies outside the series and rows that repeat an earlier row's event are removed; rows the audit could not verify keep SCPD's date. The audit lists the days it found for every head event and for every member it found off; a member it does not list was confirmed at the day of the TGB event file, which is SCPD's date + 1 for every row the audit names. Events = the distinct audit days, index = day - 2022-04-01 (as the primary).",
+ "rows": [
+  {
+   "scpd_date": "2022-04-11",
+   "scpd_index": 10,
+   "event": "BlackRock and Fidelity Back USDC in 400 Million Funding Round",
+   "audit_date": "2022-04-12",
+   "audit_index": 11,
+   "change": "+1 d",
+   "source": "first report 2022-04-12 (Circle press room; The Block)"
+  },
+  {
+   "scpd_date": "2022-04-19",
+   "scpd_index": 18,
+   "event": "Terra UST takes over BUSD to become third largest stablecoin",
+   "audit_date": "2022-04-18",
+   "audit_index": 17,
+   "change": "-1 d",
+   "source": "Cointelegraph, pub. 18 Apr 2022: UST flipped BUSD; bitcoin.com 18 Apr"
+  },
+  {
+   "scpd_date": "2022-05-06",
+   "scpd_index": 35,
+   "event": "LARGE amounts of UST selling on ANCHOR (approx 500million)",
+   "audit_date": "2022-05-07",
+   "audit_index": 36,
+   "change": "+1 d",
+   "source": "Curve withdrawals and 85M swap ~21:44-21:57 UTC 7 May (Jump Crypto post-mortem; CoinDesk 8 May)"
+  },
+  {
+   "scpd_date": "2022-05-07",
+   "scpd_index": 36,
+   "event": "UST depegs LFG deploys assets to defend peg (750million in BTC sold to buy UST. BTC value drops)",
+   "audit_date": "2022-05-09",
+   "audit_index": 38,
+   "change": "+2 d",
+   "source": "LFG BTC defence announced ~03:00-05:00 UTC 9 May (The Block 9 May)"
+  },
+  {
+   "scpd_date": "2022-05-08",
+   "scpd_index": 37,
+   "event": "UST Depegs again to 35 cents LUNA keeps falling",
+   "audit_date": "2022-05-09",
+   "audit_index": 38,
+   "change": "+1 d",
+   "source": "second depeg 9 May (35-cent level first on 11 May)"
+  },
+  {
+   "scpd_date": "2022-05-11",
+   "scpd_index": 40,
+   "event": "LUNA Collapses by almost 99 %",
+   "audit_date": "2022-05-12",
+   "audit_index": 41,
+   "change": "+1 d",
+   "source": "CNBC 12 May"
+  },
+  {
+   "scpd_date": "2022-05-11",
+   "scpd_index": 40,
+   "event": "UST Downfall Brings Record Volumes to Curve: IntoTheBlock",
+   "audit_date": "2022-05-12",
+   "audit_index": 41,
+   "change": "+1 d",
+   "source": "the audit confirmed the day after SCPD's date (the TGB event file's day)"
+  },
+  {
+   "scpd_date": "2022-05-12",
+   "scpd_index": 41,
+   "event": "Terra Halts Its Blockchain and Binance Suspends LUNA Trading",
+   "audit_date": "2022-05-12",
+   "audit_index": 41,
+   "change": "kept",
+   "source": "first halt 12 May; Binance 12-13 May"
+  },
+  {
+   "scpd_date": "2022-05-13",
+   "scpd_index": 42,
+   "event": "LUNA essentially worthless (1/100th of a cent)",
+   "audit_date": "2022-05-13",
+   "audit_index": 42,
+   "change": "kept",
+   "source": "CNBC 13 May"
+  },
+  {
+   "scpd_date": "2022-05-15",
+   "scpd_index": 44,
+   "event": "Luna Foundation Guard 80000 Bitcoin Lighter After Failing to Defend UST Peg",
+   "audit_date": "2022-05-16",
+   "audit_index": 45,
+   "change": "+1 d",
+   "source": "Fortune; The Block 16 May (retrospective report)"
+  },
+  {
+   "scpd_date": "2022-05-26",
+   "scpd_index": 55,
+   "event": "Tether Token (USDT) Launches on Polygon",
+   "audit_date": "2022-05-27",
+   "audit_index": 56,
+   "change": "+1 d",
+   "source": "CoinDesk; The Block 27 May"
+  },
+  {
+   "scpd_date": "2022-06-08",
+   "scpd_index": 68,
+   "event": "Tether Tokens (USDT) to Launch on Tezos",
+   "audit_date": "2022-06-09",
+   "audit_index": 69,
+   "change": "+1 d",
+   "source": "The Block; Cointelegraph 9 Jun"
+  },
+  {
+   "scpd_date": "2022-06-10",
+   "scpd_index": 70,
+   "event": "Binance CEO mentions selling 500 million in FTX holdings",
+   "audit_date": null,
+   "audit_index": null,
+   "change": "removed",
+   "source": "true date 2022-11-06, outside the series (BNN Bloomberg; Al Jazeera 9 Nov 2022)"
+  },
+  {
+   "scpd_date": "2022-06-12",
+   "scpd_index": 72,
+   "event": "TRON DAO RESERVE DEPLOYS Funds (700million deployed)",
+   "audit_date": "2022-06-13",
+   "audit_index": 73,
+   "change": "+1 d",
+   "source": "Forklog; The Block 13 Jun"
+  },
+  {
+   "scpd_date": "2022-06-12",
+   "scpd_index": 72,
+   "event": "USD 500 million in USDC added to TRON DAO USDD reserve",
+   "audit_date": "2022-06-14",
+   "audit_index": 74,
+   "change": "+2 d",
+   "source": "tweet 12:40 UTC 14 Jun; The Block 14 Jun"
+  },
+  {
+   "scpd_date": "2022-08-07",
+   "scpd_index": 128,
+   "event": "Circle freezes blacklisted Tornado Cash smart contract addresses",
+   "audit_date": "2022-08-08",
+   "audit_index": 129,
+   "change": "+1 d",
+   "source": "The Block; Forklog; OFAC 8 Aug"
+  },
+  {
+   "scpd_date": "2022-08-10",
+   "scpd_index": 131,
+   "event": "FTX shows sign of trouble and Binance CEO and FTX come to non binding deal for a buyout of FTX",
+   "audit_date": null,
+   "audit_index": null,
+   "change": "removed",
+   "source": "true date 2022-11-08, outside the series (SiliconANGLE 8 Nov; Al Jazeera)"
+  },
+  {
+   "scpd_date": "2022-08-10",
+   "scpd_index": 131,
+   "event": "MakerDAO should seriously consider depegging DAI from USD - Founder",
+   "audit_date": "2022-08-11",
+   "audit_index": 132,
+   "change": "+1 d",
+   "source": "the audit confirmed the day after SCPD's date (the TGB event file's day)"
+  },
+  {
+   "scpd_date": "2022-08-21",
+   "scpd_index": 142,
+   "event": "USDC whales leave and trading volume soars",
+   "audit_date": "2022-08-22",
+   "audit_index": 143,
+   "change": "+1 d",
+   "source": "Forkast 06:31 UTC 22 Aug; Cointelegraph"
+  },
+  {
+   "scpd_date": "2022-08-30",
+   "scpd_index": 151,
+   "event": "Centre Consortium Announces Release of USD Coin Version 2.0",
+   "audit_date": null,
+   "audit_index": null,
+   "change": "removed",
+   "source": "USDC v2.0 was released 2020-08-27, outside the series (Circle blog; The Block)"
+  },
+  {
+   "scpd_date": "2022-08-30",
+   "scpd_index": 151,
+   "event": "MakerDAO Christensen Pushes Endgame Plan to Save DAI From Attack",
+   "audit_date": "2022-08-31",
+   "audit_index": 152,
+   "change": "+1 d",
+   "source": "CryptoBriefing; Decrypt 31 Aug (article day)"
+  },
+  {
+   "scpd_date": "2022-09-01",
+   "scpd_index": 153,
+   "event": "Binance Announces LUNC and USTC Deposit And Withdrawal Suspension",
+   "audit_date": "2022-09-02",
+   "audit_index": 154,
+   "change": "+1 d",
+   "source": "announced 2 Sep"
+  },
+  {
+   "scpd_date": "2022-09-04",
+   "scpd_index": 156,
+   "event": "Luna price has picked momentum as the community continues burning and staking LUNC tokens",
+   "audit_date": "2022-09-04",
+   "audit_index": 156,
+   "change": "kept",
+   "source": "UNVERIFIABLE in the audit: SCPD's date kept"
+  },
+  {
+   "scpd_date": "2022-09-05",
+   "scpd_index": 157,
+   "event": "FTX To Suspend LUNC and USTC Deposits And Withdrawals and Delist ANC",
+   "audit_date": "2022-09-05",
+   "audit_index": 157,
+   "change": "kept",
+   "source": "announced 09:59 UTC 5 Sep (Blockmedia; CoinGape 5 Sep)"
+  },
+  {
+   "scpd_date": "2022-09-06",
+   "scpd_index": 158,
+   "event": "Binance - LUNC and USTC Deposits and Withdrawal Suspended",
+   "audit_date": null,
+   "audit_index": null,
+   "change": "removed",
+   "source": "same event as the 1 Sep row (announced 2 Sep, in force 7 Sep 00:00 UTC): duplicate"
+  },
+  {
+   "scpd_date": "2022-09-08",
+   "scpd_index": 160,
+   "event": "Huobi And BTCEX Joins Binance To Support 1.2% Tax Burn For Terra Classic (LUNC)",
+   "audit_date": "2022-09-08",
+   "audit_index": 160,
+   "change": "kept",
+   "source": "UNVERIFIABLE in the audit: SCPD's date kept"
+  },
+  {
+   "scpd_date": "2022-09-10",
+   "scpd_index": 162,
+   "event": "Binance Backs out of Deal with FTX",
+   "audit_date": null,
+   "audit_index": null,
+   "change": "removed",
+   "source": "true date 2022-11-09, outside the series (TechCrunch 9 Nov; The Block)"
+  },
+  {
+   "scpd_date": "2022-09-11",
+   "scpd_index": 163,
+   "event": "Binance Announces Zero-Fee Trading For Luna",
+   "audit_date": "2022-09-12",
+   "audit_index": 164,
+   "change": "+1 d",
+   "source": "CoinGape 12 Sep (zero-fee Convert for LUNC/USTC)"
+  },
+  {
+   "scpd_date": "2022-09-11",
+   "scpd_index": 163,
+   "event": "Tether (USDT) Launches on Near Network",
+   "audit_date": "2022-09-12",
+   "audit_index": 164,
+   "change": "+1 d",
+   "source": "Investing.com; CryptoSlate 12 Sep"
+  },
+  {
+   "scpd_date": "2022-09-12",
+   "scpd_index": 164,
+   "event": "FTX Suspends LUNA and UST Deposits and Withdrawals",
+   "audit_date": null,
+   "audit_index": null,
+   "change": "removed",
+   "source": "same event as the 5 Sep FTX row (LUNC/USTC suspension announced 5 Sep, in force 12 Sep 14:00 UTC; CoinGape 5 Sep): duplicate"
+  },
+  {
+   "scpd_date": "2022-09-27",
+   "scpd_index": 179,
+   "event": "USDC coming to five additional blockchain ecosystems",
+   "audit_date": "2022-09-28",
+   "audit_index": 180,
+   "change": "+1 d",
+   "source": "Circle press room (Converge22); Decrypt 28 Sep"
+  },
+  {
+   "scpd_date": "2022-10-06",
+   "scpd_index": 188,
+   "event": "MakerDAO goes ahead with $500M investment in treasuries and bonds",
+   "audit_date": "2022-10-05",
+   "audit_index": 187,
+   "change": "-1 d",
+   "source": "executive vote 5 Oct (The Block 6 Oct; Bloomberg 6 Oct); vote day per DEVIATIONS 14"
+  },
+  {
+   "scpd_date": "2022-10-08",
+   "scpd_index": 190,
+   "event": "USTC jumps over 35% in 24 hours as re-peg proposal emerges",
+   "audit_date": "2022-10-10",
+   "audit_index": 192,
+   "change": "+2 d",
+   "source": "price move 10 Oct (Finbold; The Crypto Basic 10 Oct); DEVIATIONS 14"
+  },
+  {
+   "scpd_date": "2022-10-12",
+   "scpd_index": 194,
+   "event": "Binance Adds UST to Borrowable Assets List",
+   "audit_date": "2022-10-13",
+   "audit_index": 195,
+   "change": "+1 d",
+   "source": "DailyCoin via Coinspectator 13 Oct"
+  },
+  {
+   "scpd_date": "2022-10-12",
+   "scpd_index": 194,
+   "event": "Tether change reserves to US treasury bills",
+   "audit_date": "2022-10-13",
+   "audit_index": 195,
+   "change": "+1 d",
+   "source": "CNBC; Kitco 13 Oct"
+  },
+  {
+   "scpd_date": "2022-10-19",
+   "scpd_index": 201,
+   "event": "UST Trading Vol Skyrockets By 240%",
+   "audit_date": "2022-10-20",
+   "audit_index": 202,
+   "change": "+1 d",
+   "source": "Watcher.guru 20 Oct (the 240% figure not found)"
+  },
+  {
+   "scpd_date": "2022-10-19",
+   "scpd_index": 201,
+   "event": "Tether announces Available in Over 24000 ATMs Across Brazil on 3 November",
+   "audit_date": "2022-10-20",
+   "audit_index": 202,
+   "change": "+1 d",
+   "source": "The Block 21:35 UTC 20 Oct"
+  },
+  {
+   "scpd_date": "2022-10-26",
+   "scpd_index": 208,
+   "event": "UST climbs 15% in 24 hours reclaiming $ 400 million market cap",
+   "audit_date": "2022-10-28",
+   "audit_index": 210,
+   "change": "+2 d",
+   "source": "Finbold, pub. 28 Oct 2022"
+  }
+ ],
+ "events": [
+  11,
+  17,
+  36,
+  38,
+  41,
+  42,
+  45,
+  56,
+  69,
+  73,
+  74,
+  129,
+  132,
+  143,
+  152,
+  154,
+  156,
+  157,
+  160,
+  164,
+  180,
+  187,
+  192,
+  195,
+  202,
+  210
+ ],
+ "events_scpd": [
+  10,
+  18,
+  35,
+  36,
+  37,
+  40,
+  41,
+  42,
+  44,
+  55,
+  68,
+  70,
+  72,
+  128,
+  131,
+  142,
+  151,
+  153,
+  156,
+  157,
+  158,
+  160,
+  162,
+  163,
+  164,
+  179,
+  188,
+  190,
+  194,
+  201,
+  208
+ ]
+}

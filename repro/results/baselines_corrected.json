@@ -1,0 +1,439 @@
+{
+ "cusum": {
+  "best": {
+   "mit_reality": {
+    "f1": 0.4,
+    "sd_over_seeds": 0.0,
+    "index": 136,
+    "n_ties": 1,
+    "setting": {
+     "threshold": 1.0,
+     "kappa": 1.5,
+     "startup_period": 10,
+     "cooldown": 10
+    }
+   },
+   "askubuntu": {
+    "f1": 0.6666666666666666,
+    "sd_over_seeds": 0.0,
+    "index": 13,
+    "n_ties": 99,
+    "setting": {
+     "threshold": 1.0,
+     "kappa": 0.2,
+     "startup_period": 10,
+     "cooldown": 3
+    }
+   },
+   "enron": {
+    "f1": 0.375,
+    "sd_over_seeds": 0.0,
+    "index": 413,
+    "n_ties": 72,
+    "setting": {
+     "threshold": 3.0,
+     "kappa": 1.5,
+     "startup_period": 5,
+     "cooldown": 15
+    }
+   }
+  },
+  "mean_best": 0.48055555555555557,
+  "fixed": {
+   "f1": 0.3819291819291819,
+   "index": 135,
+   "n_ties": 1,
+   "per_dataset": {
+    "mit_reality": 0.3076923076923077,
+    "askubuntu": 0.5714285714285713,
+    "enron": 0.2666666666666667
+   },
+   "setting": {
+    "threshold": 1.0,
+    "kappa": 1.5,
+    "startup_period": 10,
+    "cooldown": 7
+   }
+  },
+  "transfer": {
+   "f1": 0.1818181818181818,
+   "per_dataset": {
+    "mit_reality": {
+     "f1": 0.15,
+     "index": 2433,
+     "n_ties": 5,
+     "tie_min": 0.15,
+     "tie_mean": 0.2112820512820513,
+     "tie_max": 0.25641025641025644
+    },
+    "askubuntu": {
+     "f1": 0.25000000000000006,
+     "index": 413,
+     "n_ties": 38,
+     "tie_min": 0.25000000000000006,
+     "tie_mean": 0.25000000000000006,
+     "tie_max": 0.25000000000000006
+    },
+    "enron": {
+     "f1": 0.14545454545454545,
+     "index": 2173,
+     "n_ties": 1,
+     "tie_min": 0.14545454545454545,
+     "tie_mean": 0.14545454545454545,
+     "tie_max": 0.14545454545454545
+    }
+   },
+   "tie_mean": 0.20224553224553224
+  },
+  "n_settings": 2736
+ },
+ "ewma": {
+  "best": {
+   "mit_reality": {
+    "f1": 0.3870967741935484,
+    "sd_over_seeds": 0.0,
+    "index": 670,
+    "n_ties": 5,
+    "setting": {
+     "threshold": 2.5,
+     "lambda_param": 0.1,
+     "startup_period": 5,
+     "cooldown": 10
+    }
+   },
+   "askubuntu": {
+    "f1": 0.7272727272727273,
+    "sd_over_seeds": 0.0,
+    "index": 2118,
+    "n_ties": 2,
+    "setting": {
+     "threshold": 9.0,
+     "lambda_param": 0.05,
+     "startup_period": 15,
+     "cooldown": 2
+    }
+   },
+   "enron": {
+    "f1": 0.46153846153846156,
+    "sd_over_seeds": 0.0,
+    "index": 2435,
+    "n_ties": 4,
+    "setting": {
+     "threshold": 11.0,
+     "lambda_param": 0.05,
+     "startup_period": 5,
+     "cooldown": 15
+    }
+   }
+  },
+  "mean_best": 0.5253026543349124,
+  "fixed": {
+   "f1": 0.376984126984127,
+   "index": 803,
+   "n_ties": 1,
+   "per_dataset": {
+    "mit_reality": 0.3809523809523809,
+    "askubuntu": 0.37499999999999994,
+    "enron": 0.375
+   },
+   "setting": {
+    "threshold": 2.5,
+    "lambda_param": 0.9,
+    "startup_period": 10,
+    "cooldown": 15
+   }
+  },
+  "transfer": {
+   "f1": 0.18560606060606058,
+   "per_dataset": {
+    "mit_reality": {
+     "f1": 0.0,
+     "index": 3339,
+     "n_ties": 6,
+     "tie_min": 0.0,
+     "tie_mean": 0.0,
+     "tie_max": 0.0
+    },
+    "askubuntu": {
+     "f1": 0.37499999999999994,
+     "index": 803,
+     "n_ties": 1,
+     "tie_min": 0.37499999999999994,
+     "tie_mean": 0.37499999999999994,
+     "tie_max": 0.37499999999999994
+    },
+    "enron": {
+     "f1": 0.1818181818181818,
+     "index": 64,
+     "n_ties": 9,
+     "tie_min": 0.17391304347826086,
+     "tie_mean": 0.17479139218269651,
+     "tie_max": 0.1818181818181818
+    }
+   },
+   "tie_mean": 0.18326379739423215
+  },
+  "n_settings": 3726
+ },
+ "bocpd": {
+  "best": {
+   "mit_reality": {
+    "f1": 0.5454545454545454,
+    "sd_over_seeds": 0.0,
+    "index": 173,
+    "n_ties": 102,
+    "setting": {
+     "threshold": 0.01,
+     "hazard_rate": 0.002,
+     "cooldown": 12
+    }
+   },
+   "askubuntu": {
+    "f1": 0.6956521739130435,
+    "sd_over_seeds": 0.0,
+    "index": 1108,
+    "n_ties": 1,
+    "setting": {
+     "threshold": 0.1,
+     "hazard_rate": 0.1,
+     "cooldown": 5
+    }
+   },
+   "enron": {
+    "f1": 0.4,
+    "sd_over_seeds": 0.0,
+    "index": 1648,
+    "n_ties": 1,
+    "setting": {
+     "threshold": 0.2,
+     "hazard_rate": 0.2,
+     "cooldown": 35
+    }
+   }
+  },
+  "mean_best": 0.5470355731225296,
+  "fixed": {
+   "f1": 0.37613357064157976,
+   "index": 1108,
+   "n_ties": 1,
+   "per_dataset": {
+    "mit_reality": 0.2222222222222222,
+    "askubuntu": 0.6956521739130435,
+    "enron": 0.21052631578947367
+   },
+   "setting": {
+    "threshold": 0.1,
+    "hazard_rate": 0.1,
+    "cooldown": 5
+   }
+  },
+  "transfer": {
+   "f1": 0.2846003898635478,
+   "per_dataset": {
+    "mit_reality": {
+     "f1": 0.2222222222222222,
+     "index": 1108,
+     "n_ties": 1,
+     "tie_min": 0.2222222222222222,
+     "tie_mean": 0.2222222222222222,
+     "tie_max": 0.2222222222222222
+    },
+    "askubuntu": {
+     "f1": 0.4210526315789474,
+     "index": 199,
+     "n_ties": 1,
+     "tie_min": 0.4210526315789474,
+     "tie_mean": 0.4210526315789474,
+     "tie_max": 0.4210526315789474
+    },
+    "enron": {
+     "f1": 0.21052631578947367,
+     "index": 1108,
+     "n_ties": 1,
+     "tie_min": 0.21052631578947367,
+     "tie_mean": 0.21052631578947367,
+     "tie_max": 0.21052631578947367
+    }
+   },
+   "tie_mean": 0.2846003898635478
+  },
+  "n_settings": 2856
+ },
+ "mmd": {
+  "best": {
+   "mit_reality": {
+    "f1": 0.6153846153846153,
+    "sd_over_seeds": 0.0,
+    "index": 2122,
+    "n_ties": 1,
+    "setting": {
+     "threshold": 0.15,
+     "window_size": 15,
+     "cooldown": 35
+    }
+   },
+   "askubuntu": {
+    "f1": 0.9565217391304348,
+    "sd_over_seeds": 0.0,
+    "index": 2,
+    "n_ties": 13,
+    "setting": {
+     "threshold": 0.0001,
+     "window_size": 3,
+     "cooldown": 5
+    }
+   },
+   "enron": {
+    "f1": 0.5,
+    "sd_over_seeds": 0.0,
+    "index": 1200,
+    "n_ties": 8,
+    "setting": {
+     "threshold": 0.015,
+     "window_size": 15,
+     "cooldown": 45
+    }
+   }
+  },
+  "mean_best": 0.6906354515050167,
+  "fixed": {
+   "f1": 0.46783572870529394,
+   "index": 2,
+   "n_ties": 1,
+   "per_dataset": {
+    "mit_reality": 0.23076923076923078,
+    "askubuntu": 0.9565217391304348,
+    "enron": 0.21621621621621626
+   },
+   "setting": {
+    "threshold": 0.0001,
+    "window_size": 3,
+    "cooldown": 5
+   }
+  },
+  "transfer": {
+   "f1": 0.148995148995149,
+   "per_dataset": {
+    "mit_reality": {
+     "f1": 0.23076923076923078,
+     "index": 2,
+     "n_ties": 7,
+     "tie_min": 0.19607843137254902,
+     "tie_mean": 0.20103425985778925,
+     "tie_max": 0.23076923076923078
+    },
+    "askubuntu": {
+     "f1": 0.0,
+     "index": 2387,
+     "n_ties": 1,
+     "tie_min": 0.0,
+     "tie_mean": 0.0,
+     "tie_max": 0.0
+    },
+    "enron": {
+     "f1": 0.21621621621621626,
+     "index": 2,
+     "n_ties": 1,
+     "tie_min": 0.21621621621621626,
+     "tie_mean": 0.21621621621621626,
+     "tie_max": 0.21621621621621626
+    }
+   },
+   "tie_mean": 0.1390834920246685
+  },
+  "n_settings": 2926
+ },
+ "lad": {
+  "best": {
+   "mit_reality": {
+    "f1": 0.6,
+    "sd_over_seeds": 0.0,
+    "index": 2027,
+    "n_ties": 11,
+    "setting": {
+     "threshold": 0.1,
+     "num_eigen": 5,
+     "short_window": 3,
+     "long_window": 20,
+     "cooldown": 5
+    }
+   },
+   "askubuntu": {
+    "f1": 0.8571428571428572,
+    "sd_over_seeds": 0.0,
+    "index": 33,
+    "n_ties": 4,
+    "setting": {
+     "threshold": 0.0001,
+     "num_eigen": 5,
+     "short_window": 7,
+     "long_window": 10,
+     "cooldown": 5
+    }
+   },
+   "enron": {
+    "f1": 0.34782608695652173,
+    "sd_over_seeds": 0.0,
+    "index": 1305,
+    "n_ties": 2,
+    "setting": {
+     "threshold": 0.01,
+     "num_eigen": 5,
+     "short_window": 7,
+     "long_window": 20,
+     "cooldown": 7
+    }
+   }
+  },
+  "mean_best": 0.601656314699793,
+  "fixed": {
+   "f1": 0.4782051282051281,
+   "index": 1118,
+   "n_ties": 1,
+   "per_dataset": {
+    "mit_reality": 0.3846153846153846,
+    "askubuntu": 0.7999999999999999,
+    "enron": 0.25
+   },
+   "setting": {
+    "threshold": 0.005,
+    "num_eigen": 10,
+    "short_window": 3,
+    "long_window": 20,
+    "cooldown": 5
+   }
+  },
+  "transfer": {
+   "f1": 0.15579710144927536,
+   "per_dataset": {
+    "mit_reality": {
+     "f1": 0.21739130434782608,
+     "index": 277,
+     "n_ties": 1,
+     "tie_min": 0.21739130434782608,
+     "tie_mean": 0.21739130434782608,
+     "tie_max": 0.21739130434782608
+    },
+    "askubuntu": {
+     "f1": 0.0,
+     "index": 1795,
+     "n_ties": 1,
+     "tie_min": 0.0,
+     "tie_mean": 0.0,
+     "tie_max": 0.0
+    },
+    "enron": {
+     "f1": 0.25,
+     "index": 1118,
+     "n_ties": 1,
+     "tie_min": 0.25,
+     "tie_mean": 0.25,
+     "tie_max": 0.25
+    }
+   },
+   "tie_mean": 0.15579710144927536
+  },
+  "n_settings": 3000
+ },
+ "_runtime_s": 75.5
+}

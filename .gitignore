@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+
+# Data: downloaded raw files, prepared bundles, intermediate arrays (all regenerated)
+data/raw/
+data/cache/
+repro/data/
+
+# LaTeX build files (paper/main.pdf is tracked)
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
+paper/figures/*.png
+
+# Local agent notes
+.claude/
+CLAUDE.md

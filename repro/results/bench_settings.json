@@ -1,0 +1,75 @@
+{
+ "key": "5c5a31776a0c",
+ "counts": [
+  2,
+  5,
+  "gam",
+  6,
+  "pct",
+  0.8
+ ],
+ "constant": [
+  2,
+  5,
+  "pw",
+  6,
+  "pct",
+  0.2
+ ],
+ "cusum": {
+  "threshold": 45.0,
+  "kappa": 1.5,
+  "startup_period": 10,
+  "cooldown": 7
+ },
+ "bocpd": {
+  "threshold": 0.1,
+  "hazard_rate": 0.1,
+  "cooldown": 5
+ },
+ "mmd": {
+  "threshold": 0.0005,
+  "window_size": 3,
+  "cooldown": 5
+ },
+ "lad": {
+  "threshold": 0.0005,
+  "num_eigen": 5,
+  "short_window": 7,
+  "long_window": 10,
+  "cooldown": 5
+ },
+ "tire": [
+  [
+   5,
+   1,
+   3,
+   2,
+   1.0,
+   "both",
+   100
+  ],
+  0.1,
+  7
+ ],
+ "scpd": {
+  "windows": [
+   5,
+   10
+  ],
+  "percent": 0.05,
+  "Nz": 100,
+  "Nm": 20,
+  "bins": 50
+ },
+ "burn": {
+  "counts": 12,
+  "constant": 12,
+  "cusum": 10,
+  "bocpd": 15,
+  "mmd": 6,
+  "lad": 17,
+  "tire": 10,
+  "scpd": 11
+ }
+}

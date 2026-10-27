@@ -1,0 +1,31 @@
+{
+ "C4": {
+  "max_abs_error_exact_enumeration": 3.552713678800501e-15,
+  "status": "OK"
+ },
+ "C6": {
+  "mean": -0.15391156462585392,
+  "se_blocks": 0.48670616626172386,
+  "status": "OK"
+ },
+ "C8": {
+  "max_abs_diff": {
+   "counts": 0.0,
+   "cusum": 0.0,
+   "bocpd": 0.0,
+   "mmd": 0.0,
+   "lad": 0.0,
+   "scpd": 0.0
+  },
+  "status": "OK"
+ },
+ "C9_turnover": {
+  "identical_snapshots_max": 0.0,
+  "relabel_max_diff": 2.7755575615628914e-17,
+  "range": [
+   0.04999999999999999,
+   0.10299999999999997
+  ],
+  "status": "OK"
+ }
+}

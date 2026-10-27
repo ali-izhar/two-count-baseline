@@ -1,0 +1,421 @@
+{
+ "note": "label-free reference statistics of the CHB-MIT EEG build (data/downloaders/chbmit.py build_check); extracted from the preregistered study's results file of commit 4c95a82",
+ "events": [
+  {
+   "segment": 0,
+   "index": 1498,
+   "onset_sec": 2996,
+   "offset_sec": 3036,
+   "offset_index": 1518,
+   "type": "S",
+   "file": "chb01_03.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb01/chb01-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 1498
+  },
+  {
+   "segment": 1,
+   "index": 733,
+   "onset_sec": 1467,
+   "offset_sec": 1494,
+   "offset_index": 747,
+   "type": "S",
+   "file": "chb01_04.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb01/chb01-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 733
+  },
+  {
+   "segment": 2,
+   "index": 866,
+   "onset_sec": 1732,
+   "offset_sec": 1772,
+   "offset_index": 886,
+   "type": "S",
+   "file": "chb01_15.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb01/chb01-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 866
+  },
+  {
+   "segment": 3,
+   "index": 507,
+   "onset_sec": 1015,
+   "offset_sec": 1066,
+   "offset_index": 533,
+   "type": "S",
+   "file": "chb01_16.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb01/chb01-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 507
+  },
+  {
+   "segment": 4,
+   "index": 860,
+   "onset_sec": 1720,
+   "offset_sec": 1810,
+   "offset_index": 905,
+   "type": "S",
+   "file": "chb01_18.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb01/chb01-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 860
+  },
+  {
+   "segment": 5,
+   "index": 163,
+   "onset_sec": 327,
+   "offset_sec": 420,
+   "offset_index": 210,
+   "type": "S",
+   "file": "chb01_21.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb01/chb01-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 163
+  },
+  {
+   "segment": 6,
+   "index": 931,
+   "onset_sec": 1862,
+   "offset_sec": 1963,
+   "offset_index": 981,
+   "type": "S",
+   "file": "chb01_26.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb01/chb01-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 931
+  },
+  {
+   "segment": 7,
+   "index": 181,
+   "onset_sec": 362,
+   "offset_sec": 414,
+   "offset_index": 207,
+   "type": "S",
+   "file": "chb03_01.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb03/chb03-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 181
+  },
+  {
+   "segment": 8,
+   "index": 365,
+   "onset_sec": 731,
+   "offset_sec": 796,
+   "offset_index": 398,
+   "type": "S",
+   "file": "chb03_02.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb03/chb03-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 365
+  },
+  {
+   "segment": 9,
+   "index": 216,
+   "onset_sec": 432,
+   "offset_sec": 501,
+   "offset_index": 250,
+   "type": "S",
+   "file": "chb03_03.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb03/chb03-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 216
+  },
+  {
+   "segment": 10,
+   "index": 1081,
+   "onset_sec": 2162,
+   "offset_sec": 2214,
+   "offset_index": 1107,
+   "type": "S",
+   "file": "chb03_04.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb03/chb03-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 1081
+  },
+  {
+   "segment": 11,
+   "index": 991,
+   "onset_sec": 1982,
+   "offset_sec": 2029,
+   "offset_index": 1014,
+   "type": "S",
+   "file": "chb03_34.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb03/chb03-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 991
+  },
+  {
+   "segment": 12,
+   "index": 1296,
+   "onset_sec": 2592,
+   "offset_sec": 2656,
+   "offset_index": 1328,
+   "type": "S",
+   "file": "chb03_35.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb03/chb03-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 1296
+  },
+  {
+   "segment": 13,
+   "index": 862,
+   "onset_sec": 1725,
+   "offset_sec": 1778,
+   "offset_index": 889,
+   "type": "S",
+   "file": "chb03_36.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb03/chb03-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 862
+  },
+  {
+   "segment": 14,
+   "index": 208,
+   "onset_sec": 417,
+   "offset_sec": 532,
+   "offset_index": 266,
+   "type": "S",
+   "file": "chb05_06.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb05/chb05-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 208
+  },
+  {
+   "segment": 15,
+   "index": 543,
+   "onset_sec": 1086,
+   "offset_sec": 1196,
+   "offset_index": 598,
+   "type": "S",
+   "file": "chb05_13.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb05/chb05-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 543
+  },
+  {
+   "segment": 16,
+   "index": 1158,
+   "onset_sec": 2317,
+   "offset_sec": 2413,
+   "offset_index": 1206,
+   "type": "S",
+   "file": "chb05_16.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb05/chb05-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 1158
+  },
+  {
+   "segment": 17,
+   "index": 1225,
+   "onset_sec": 2451,
+   "offset_sec": 2571,
+   "offset_index": 1285,
+   "type": "S",
+   "file": "chb05_17.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb05/chb05-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 1225
+  },
+  {
+   "segment": 18,
+   "index": 1174,
+   "onset_sec": 2348,
+   "offset_sec": 2465,
+   "offset_index": 1232,
+   "type": "S",
+   "file": "chb05_22.edf",
+   "source": "https://physionet.org/content/chbmit/1.0.0/chb05/chb05-summary.txt",
+   "observable": true,
+   "flags": [],
+   "index_original": 1174
+  }
+ ],
+ "segment_flags": [
+  {
+   "segment": 0,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": []
+  },
+  {
+   "segment": 1,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": []
+  },
+  {
+   "segment": 2,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": []
+  },
+  {
+   "segment": 3,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": []
+  },
+  {
+   "segment": 4,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": []
+  },
+  {
+   "segment": 5,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": [
+    1341,
+    1342
+   ]
+  },
+  {
+   "segment": 6,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": [
+    58,
+    59,
+    302,
+    303
+   ]
+  },
+  {
+   "segment": 7,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": [
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409
+   ]
+  },
+  {
+   "segment": 8,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": []
+  },
+  {
+   "segment": 9,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": []
+  },
+  {
+   "segment": 10,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": []
+  },
+  {
+   "segment": 11,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": [
+    993,
+    994,
+    995,
+    996,
+    997
+   ]
+  },
+  {
+   "segment": 12,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": [
+    1059,
+    1060,
+    1300,
+    1301,
+    1302,
+    1303,
+    1304,
+    1305,
+    1306,
+    1307
+   ]
+  },
+  {
+   "segment": 13,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": [
+    74,
+    75,
+    866,
+    867,
+    868,
+    1393,
+    1394,
+    1395,
+    1396,
+    1397
+   ]
+  },
+  {
+   "segment": 14,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": []
+  },
+  {
+   "segment": 15,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": []
+  },
+  {
+   "segment": 16,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": []
+  },
+  {
+   "segment": 17,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": []
+  },
+  {
+   "segment": 18,
+   "partial": [],
+   "partial_or_day_before": [],
+   "dropout": []
+  }
+ ],
+ "n_steps": 33562,
+ "score_diag": {
+  "scale": {
+   "V": [
+    0.07233629739760011,
+    0.44254570483312056
+   ]
+  }
+ }
+}

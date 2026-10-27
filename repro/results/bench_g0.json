@@ -1,0 +1,245 @@
+{
+ "lad": {
+  "setting": "authors' code (github.com/shenyangHuang/LAD @ 58330238) on the authors' files; svds start vector from np.random.seed(0); scoring change_detection_two_windows",
+  "datasets": {
+   "USLegis": {
+    "n": 2,
+    "events": [
+     3,
+     7
+    ],
+    "top": [
+     3,
+     7
+    ],
+    "hits": 1.0,
+    "rank_of_events": [
+     1,
+     2
+    ],
+    "top_rounded_z": [
+     3,
+     7
+    ]
+   },
+   "UCI": {
+    "n": 10,
+    "events": [
+     65,
+     158
+    ],
+    "top": [
+     65,
+     73,
+     94,
+     115,
+     122,
+     142,
+     157,
+     177,
+     180,
+     191
+    ],
+    "hits": 0.5,
+    "rank_of_events": [
+     3,
+     195
+    ],
+    "top_rounded_z": [
+     65,
+     73,
+     94,
+     115,
+     122,
+     142,
+     157,
+     177,
+     180,
+     191
+    ]
+   },
+   "canVote": {
+    "n": 2,
+    "events": [
+     7,
+     9
+    ],
+    "top": [
+     7,
+     9
+    ],
+    "hits": 1.0,
+    "rank_of_events": [
+     2,
+     1
+    ],
+    "top_rounded_z": [
+     7,
+     9
+    ],
+    "events_secondary": [
+     5,
+     9
+    ],
+    "hits_secondary": 0.5
+   }
+  }
+ },
+ "scpd": {
+  "setting": "methods/scpd.py, probe seed 0, own construction (weighted; active vertices on MAG and SCC; fixed 3,000 airports and MATLAB DOS path on FL)",
+  "datasets": {
+   "MAG": {
+    "years": [
+     1864,
+     1900,
+     1934,
+     1938,
+     1944,
+     1945,
+     1947,
+     1950,
+     1958
+    ],
+    "paper_years": [
+     1864,
+     1900,
+     1934,
+     1938,
+     1944,
+     1945,
+     1947,
+     1950,
+     1958
+    ],
+    "overlap_with_paper": 9
+   },
+   "FL": {
+    "weeks": [
+     11,
+     12
+    ],
+    "paper_weeks": [
+     11,
+     12
+    ],
+    "overlap_with_paper": 2
+   },
+   "SCC": {
+    "days": [
+     34,
+     70,
+     116,
+     179,
+     184,
+     187,
+     206,
+     214
+    ],
+    "paper_days": [
+     33,
+     69,
+     76,
+     115,
+     121,
+     178,
+     183,
+     205
+    ],
+    "exact_overlap": 0,
+    "overlap_day_minus_1": 6,
+    "days_last_day_dropped": [
+     34,
+     70,
+     116,
+     122,
+     179,
+     184,
+     187,
+     206
+    ],
+    "overlap_day_minus_1_last_day_dropped": 7,
+    "note": "SCPD states no windows or percent for SCC: windows 5/10 and its 8 detections are used"
+   }
+  }
+ },
+ "sgnn": {
+  "setting": "s-GNN-I, DyNNet @ 2cd2035 defaults, individual split, reps 0-1, adjusted F1 (+-5)",
+  "ran_now": false,
+  "n_runs": 16,
+  "mean": 0.14006653612623524,
+  "per_subject": [
+   0.0,
+   0.0,
+   0.3298,
+   0.1667,
+   0.1422,
+   0.0,
+   0.3275,
+   0.1544
+  ],
+  "per_run": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.6596
+   ],
+   [
+    0.0,
+    0.3333
+   ],
+   [
+    0.2844,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.6549
+   ],
+   [
+    0.0,
+    0.3088
+   ]
+  ],
+  "paper_per_subject": [
+   0.76,
+   0.91,
+   0.6,
+   0.73,
+   0.85,
+   0.74,
+   0.9,
+   0.72
+  ],
+  "paper_mean": 0.77625,
+  "seconds_per_training": [
+   388.8974618911743,
+   460.5897047519684,
+   349.07268166542053,
+   314.65551257133484,
+   160.87256956100464,
+   113.34104180335999,
+   330.5288259983063,
+   187.0121304988861,
+   182.6222722530365,
+   148.11927342414856,
+   221.59470963478088,
+   181.8104796409607,
+   337.3659334182739,
+   344.4288260936737,
+   175.16492080688477,
+   174.92258214950562
+  ]
+ },
+ "_runtime_s": 244.5
+}
