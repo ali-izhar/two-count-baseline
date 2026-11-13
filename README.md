@@ -6,7 +6,8 @@ of active vertices and the number of edges.
 
 We run 13 published detectors, 3 structural statistics, the two counts and a constant score on 10 labelled datasets,
 rank each event among the event-free windows of its series, and test what the detectors see when the structure changes
-at fixed degrees. Paper: [`paper/main.pdf`](paper/main.pdf). Every number in it comes from [`repro/`](repro/README.md).
+at fixed degrees. Paper: [arXiv:2605.29290](https://arxiv.org/abs/2605.29290) ([`paper/main.pdf`](paper/main.pdf)). Every number in
+it comes from [`repro/`](repro/README.md).
 
 ## Methods
 
@@ -39,10 +40,12 @@ and their sources are listed in [`data/README.md`](data/README.md).
 
 ```bibtex
 @misc{ali2026twocount,
-  title  = {A Two-Count Baseline for Change Detection on Dynamic Networks},
-  author = {Ali, Izhar},
-  year   = {2026},
-  url    = {https://github.com/ali-izhar/two-count-baseline}
+  title         = {A Two-Count Baseline for Change Detection on Dynamic Networks},
+  author        = {Ali, Izhar},
+  year          = {2026},
+  eprint        = {2605.29290},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2605.29290}
 }
 ```
 
